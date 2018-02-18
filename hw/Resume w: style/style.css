@@ -1,4 +1,10 @@
-/*
+
 h1,h2,h3 {font-family: arial;
-color: yellow;}
-*/
+color: orange;}
+
+table {background-color: black;}
+th, td {color: white}
+
+a {text-decoration: none;
+color: blue}
+a:hover {background-color: orange}
