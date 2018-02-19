@@ -8,16 +8,16 @@ padding: 10 px;
 
 }
 .leftcol {
-  width: 240 px;
+  width: 240px;
   border: 1px solid red;
-  min-height: 200 px;
+  min-height: 200px;
   display: block;
   float: left;
 }
 .rightcol {
-  width: 240 px;
+  width: 240px;
   border: 1px solid red;
-  min-height: 200 px;
+  min-height: 200px;
   display: block;
   float: right;
 }
