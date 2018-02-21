@@ -1,8 +1,7 @@
 
 <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed|Open+Sans+Condensed:300"
 rel="stylesheet">
-font-family: 'Barlow Condensed',
-sans-serif;
+
 h1,h2,h3 {font-family: arial;
 color: orange;}
 
@@ -10,8 +9,10 @@ table {background-color: black;}
 th, td {color: white}
 
 a {text-decoration: none;
-color: blue}
+  color: blue}
+
 a:hover {background-color: orange}
+
 .largetext {font-size: 36px}
 .mediumtext {font-size: 25px}
 .centertext {text-align: center;}
@@ -19,6 +20,7 @@ a:hover {background-color: orange}
 sans-serif;}
 .Open {font-family: 'Open Sans Condensed',
 sans-serif;}
+
 #main {background-color: pink}
 #main {color: Gray}
 #main {text-decoration: underline;}
@@ -26,4 +28,5 @@ sans-serif;}
 #home {color: gray}
 #intro {background-color: pink}
 #intro {color: gray}
+
 h3 {text-decoration: underline;}
