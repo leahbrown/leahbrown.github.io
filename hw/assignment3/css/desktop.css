@@ -1,3 +1,7 @@
+.image-bg {
+background-image: url("../css/images/food.jpeg");
+}
+
 nav ul {text-align: right;
   width: 100%;
 max-width: 960px;
