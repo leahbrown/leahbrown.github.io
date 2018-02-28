@@ -1,5 +1,8 @@
 .image-bg {
 background-image: url("../css/images/food.jpeg");
+background-size: contain;
+background-repeat: no-repeat;
+background-position: center;
 }
 
 nav ul {text-align: right;
