@@ -7,7 +7,8 @@ nav ul {text-align: right;
   width: 100%;
 max-width: 960px;
 margin-right: auto;
-margin-left: auto;}
+margin-left: auto;
+margin-top: auto;}
 
 nav li{text-align: center;
 font-size: 32px;
@@ -22,4 +23,5 @@ header h1 {
 }
 .image-nav{background-image: url("..//css/images/bar.jpg");
 background-size: contain;
-background-position: center}
+background-position: center;
+}
