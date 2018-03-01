@@ -14,5 +14,13 @@ header h1 {
 background-image: url("../css/images/food.jpeg");
 background-repeat: no-repeat;
 background-position: center;
-background-size: auto;
+width: 100%;
+
+}
+img {width: 100%}
+.centered {
+    position: absolute;
+    top: 70%;
+    left: 30%;
+
 }

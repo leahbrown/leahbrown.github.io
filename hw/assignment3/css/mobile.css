@@ -10,3 +10,10 @@ background-size: contain;
 background-repeat: no-repeat;
 background-position: center;
 }
+img {width: 100%}
+.centered {
+    position: absolute;
+    top: 70%;
+    left: 30%;
+
+}
