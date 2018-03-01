@@ -21,9 +21,4 @@ header h1 {
   padding-top: 50px;
   text-align: center;
 }
-.bigimage{
-    background-image: url("../css/images/cutboard.jpeg");
-    background-repeat: no-repeat;
-    background-position: right top;
-    background-attachment: fixed;
-}
+img {width: 500px}
