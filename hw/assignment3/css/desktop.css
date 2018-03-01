@@ -21,4 +21,9 @@ header h1 {
   padding-top: 50px;
   text-align: center;
 }
-img {width: 500px}
+img {width: 100%}
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
