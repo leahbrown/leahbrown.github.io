@@ -2,19 +2,16 @@
 background-image: url("../css/images/food.jpeg");
 background-size: contain;
 background-repeat: no-repeat;
-background-position: center;
-}
-
+background-position: center;}
 nav ul {text-align: right;
   width: 100%;
 max-width: 960px;
 margin-right: auto;
-margin-left: auto;
-}
+margin-left: auto;}
 
 nav li{text-align: center;
 font-size: 32px;
-padding-top: 25px;
+padding-top: 0px;
 padding-bottom: 15px;
 display: inline;
 }
@@ -23,3 +20,6 @@ header h1 {
   padding-top: 50px;
   text-align: center;
 }
+.image-nav{background-image: url("..//css/images/bar.jpg");
+background-size: contain;
+background-position: center}

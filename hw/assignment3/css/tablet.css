@@ -10,3 +10,9 @@ header h1 {
   padding-top: 50px;
   text-align: center;
 }
+.image-bg {
+background-image: url("../css/images/food.jpeg");
+background-size: contain;
+background-repeat: no-repeat;
+background-position: center;
+}
