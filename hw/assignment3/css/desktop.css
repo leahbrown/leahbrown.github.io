@@ -21,8 +21,9 @@ header h1 {
   padding-top: 50px;
   text-align: center;
 }
-.image-nav{background-image: url("..//css/images/bar.jpg");
-background-size: contain;
-background-position: left;
-background-repeat: repeat-3;
+.bigimage{
+    background-image: url("../css/images/cutboard.jpeg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
 }
