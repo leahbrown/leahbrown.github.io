@@ -23,5 +23,6 @@ header h1 {
 }
 .image-nav{background-image: url("..//css/images/bar.jpg");
 background-size: contain;
-background-position: center;
+background-position: left;
+background-repeat: repeat-3;
 }
