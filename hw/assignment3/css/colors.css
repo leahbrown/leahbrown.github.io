@@ -4,17 +4,22 @@ background-size: contain;
 background-repeat: no-repeat;
 background-position: center;
 }
-.content {display: block;
-width: 960px;
+.content {padding-top: : 70px;
+padding-left: 60px;}
+.Welcome{padding: 10px;}
+.outerimage {background: url("images/cutboard.jpeg") top center no-repeat;
+background-size: contain;
+width: 800px;
+height: 800px;
 margin-left: auto;
 margin-right: auto;
-}
+padding: 0;}
 
 .dark-bg {background: #6544FF;}
 .medium-bg {background: gray;}
 .light-bg {background: #ACA2FF;}
 
-.dark-txt {color: gray;}
+.dark-txt {color: black;}
 .medium-txt {color: #FFA9A8;}
 .light-txt {color: white;}
 body {padding: 0;
