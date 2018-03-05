@@ -23,12 +23,7 @@ header h1 {
   text-align: center;
 }
 img {width: 100%}
-.centered {
-    position: absolute;
-    top: 70%;
-    left: 30%;
 
-}
 .outerimage {background: url("images/cutboard.jpeg") top center no-repeat;
 background-size: contain;
 width: 800px;
