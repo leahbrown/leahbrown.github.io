@@ -73,3 +73,9 @@ img {width: 100%}
     background: #3B5998;
     color: white;
 }
+.gallery li {width: 45%;
+margin: 2%;
+float: left;
+margin-top: 10px;
+margin-bottom: 10px;}
+  .gallery {width: 100%;}
