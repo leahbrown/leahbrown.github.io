@@ -4,12 +4,7 @@ font-size: 20px;
 padding-top: 15px;
 padding-bottom: 15px;
 }
-.image-bg {
-background-image: url("../css/images/food.jpeg");
-background-size: auto;
-background-repeat: no-repeat;
-background-position: center;
-}
+
 img {width: 100%}
 .centered {
     position: absolute;
@@ -17,6 +12,7 @@ img {width: 100%}
     left: 30%;
 
 }
+.outerimage {height: auto;}
 .dropbtn {
 
     color: white;
@@ -66,3 +62,7 @@ img {width: 100%}
     background: #3B5998;
     color: white;
 }
+.gallery li {width: 45%;
+margin: 20px;}
+
+  .gallery {width: 100%;}
