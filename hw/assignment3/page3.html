@@ -2,9 +2,44 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Gallery</title>
+    <link rel="stylesheet" href="css/colors.css">
+    <link rel="stylesheet" media="only screen and (max-width: 480px)" href="css/mobile.css">
+
+    <!-- Media query for medium browser width -->
+    <link rel="stylesheet" media="only screen and (min-width: 481px) and (max-width: 960px)" href="css/tablet.css">
+
+    <!-- Media query for full browser width -->
+    <link rel="stylesheet" media="only screen and (min-width: 961px)" href="css/desktop.css">
+
+    <!-- Prevent smartphones from scaling pages down -->
+    <meta name="viewport" content="initial-scale=1">
   </head>
   <body>
+<main>
+  <header class="image-bg">
+    <h1 class="light-txt"> Miami Foodie Spots </h1>
+    <nav class="medium-bg">
+      <ul>
+        <li><a class="light-txt medium-font" href="index.html"> Home</a></li>
+        <li>    <div class="dropdown">
+            <button class="dropbtn">Restaurants</button>
+            <div class="dropdown-content small-font">
+              <a href="http://robertaspizza.com">Roberta's Pizza</a>
+              <a href="http://www.nusr-et.com.tr/en/home.aspx">Nusr-Et</a>
+              <a href="http://www.eatinghousemiami.com/gallery/">Eating House</a>
+            </div>
+          </div></li>
+          <li><a class="light-txt medium-font" href="page2.html"> About Restaurants</a></li>
+        <li><a class="light-txt medium-font" href="page3.html"> Gallery</a></li>
+      </ul>
+    </nav>
+  </header>
+  <footer>
+  <p class="medium-bg light-txt"> Copyright &copy; 2018 CIM 111</p>
 
+
+</footer>
+</main>
   </body>
 </html>
