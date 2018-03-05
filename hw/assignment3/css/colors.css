@@ -21,9 +21,12 @@ footer p {padding: 25px;
   padding: 0;
   margin: 0;
   list-style-type: none;
-  
+
 }
-.gallery li {}
+.clear {clear: both;}
+.gallery li {
+  display: block;
+}
   .gallery {
     display: block;
     margin-left: auto;
