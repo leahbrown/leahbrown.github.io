@@ -10,7 +10,7 @@ padding-left: 60px;}
 .outerimage {background: url("images/cutboard.jpeg") top center no-repeat;
 background-size: contain;
 width: 800px;
-height: 800px;
+height: 600px;
 margin-left: auto;
 margin-right: auto;
 padding: 0;}
@@ -31,7 +31,7 @@ nav ul {list-style-type: none;
 padding-left: 0
 }
 nav a {text-decoration: none;}
-img{max-width: 100%;}
+img{max-width: 100%; max-height: 100%;}
 footer p {padding: 25px;
 }
 .gallery ul {
@@ -55,3 +55,8 @@ footer p {padding: 25px;
   .desk gallery {display: block;
   width: 100%;
 }
+a {text-decoration: none;}
+.centertxt {text-align: center;}
+.biggertxt {font-size: 24px;}
+h3 {font-size: 26px;
+text-decoration: underline;}

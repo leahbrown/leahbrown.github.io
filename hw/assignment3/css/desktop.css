@@ -74,6 +74,9 @@ img {width: 100%}
     background: #3B5998;
     color: white;
 }
+.galleryLogo { display: block; width: 960px; margin-left: auto; margin-right: auto;}
+.galleryLogo ul { text-align: justify;}
+.galleryLogo li  { display: inline-block; width: 298px; height: 298px; text-align: center;}
 .gallery li {width: 298px;
 height: 298px;
 margin-left: 10px;
