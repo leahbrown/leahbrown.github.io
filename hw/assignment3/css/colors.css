@@ -1,3 +1,6 @@
+.headingfont {font-family: 'Satisfy', cursive;}
+.paragraphfont {font-family: 'Lobster Two', cursive;}
+
 .image-bg {
 background-image: url("../css/images/food.jpeg");
 background-size: contain;
@@ -5,7 +8,7 @@ background-repeat: no-repeat;
 background-position: center;
 }
 .content {padding-top: : 70px;
-padding-left: 60px;}
+padding-left: 110px;}
 .Welcome{padding: 10px;}
 .outerimage {background: url("images/cutboard.jpeg") top center no-repeat;
 background-size: contain;
@@ -16,15 +19,16 @@ margin-right: auto;
 padding: 0;}
 
 .dark-bg {background: #6544FF;}
-.medium-bg {background: gray;}
+.medium-bg {background: #3D3030;}
 .light-bg {background: #ACA2FF;}
 
-.dark-txt {color: black;}
+.dark-txt {color: #3D3030;}
 .medium-txt {color: #FFA9A8;}
 .light-txt {color: white;}
 body {padding: 0;
 margin: 0;
 }
+
 .medium-font { font-size: 18px;}
 .small-font {font-size: 12px;}
 nav ul {list-style-type: none;
@@ -61,3 +65,23 @@ a {text-decoration: none;}
 h3 {font-size: 26px;
 text-decoration: underline;}
 .circleimg {border-radius: 50%;}
+.smallsmall{12px;}
+.paragraphbg {background-color: #3D3030}
+.column {
+    float: left;
+    width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.pg2 {font-size: 15px;}
+.center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid #3D3030;
+    padding: 10px;
+}
