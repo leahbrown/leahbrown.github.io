@@ -7,17 +7,22 @@
 
     <script type="text/javascript">
 $(function(){
-  $('#maintitle').click(funtion() {
+  $('#maintitle').click(function() {
 //alert("Handler for .click() called.");
 $('#mainimage').hide();
 });
+$('#othertitle').click(function() {
+  //alert("Handler for .click() called.");
+  $('#mainimage').show();
 
+});
 
 });
     </script>
   </head>
   <body>
-  <h1 id="maintitle" class="pagename"> Page Title</h1>
+  <h1 id="maintitle" class="pagename"> hide image</h1>
+  <h1 id="othertitle" class="pagename"> show image</h1>
 <img id="mainimage" src="https://placehold.it/200x200" alt="">
   </body>
 </html>
