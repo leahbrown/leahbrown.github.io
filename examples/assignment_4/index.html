@@ -2,27 +2,73 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>How to guide</title>
+    <title>How to dye Easter Eggs with shaving cream</title>
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css"
+    integrity="sha384-v2Tw72dyUXeU3y4aM2Y0tBJQkGfplr39mxZqlTBDUZAb9BGoC40+rdFCG0m10lXk"
+    crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/fontawesome.css"
+integrity="sha384-q3jl8XQu1OpdLgGFvNRnPdj5VIlCvgsDQTQB6owSOHWlAurxul7f+JpUOVdAiJ5P"
+crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Delius" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-    <script type="text/javascript">
-$(function(){
-  $('#maintitle').click(function() {
-//alert("Handler for .click() called.");
-$('#mainimage').hide();
-});
-$('#othertitle').click(function() {
-  //alert("Handler for .click() called.");
-  $('#mainimage').show();
-
-});
-
-});
-    </script>
+    <script src="js/script.js"></script>
   </head>
   <body>
-  <h1 id="maintitle" class="pagename"> hide image</h1>
-  <h1 id="othertitle" class="pagename"> show image</h1>
-<img id="mainimage" src="https://placehold.it/200x200" alt="">
+    <h1 id="title" class="fontdelius">How to dye eggs with shaving cream <i
+    class="fas fa-arrow-alt-circle-left"></i></h1>
+    <p>You are going to need...</p>
+    <button id="getStarted">Lets get started</button>
+    <ol id="howTo" class="hide">
+      <li class="active"><h2>Step 1:</h2>
+        <img src="images/step1.png" alt="step 1">
+        <p>First, you are going to boil water and then place eggs into the pot.
+          After 3 minutes you will reduce to the water to a simmer and cook for
+          another 5 minutes.</p>
+      </li>
+      <li><h2>Step 2:</h2>
+        <img src="images/step2.png" alt="step 2">
+        <p>Next, you are going to place eggs into a bowl of ice and let sit for
+         15 minutes. This process lets the process of peeiling the shell off the
+       easier.</p>
+      </li>
+      <li><h2>Step 3:</h2>
+        <img src="images/step3.png" alt="step 3">
+        <p>After the eggs have sat in the ice water you can remove them from the
+          ice and dry them thoroughly. </p>
+      </li>
+      <li><h2>Step 4:</h2>
+        <img src="images/step4.png" alt="step 4">
+        <p>Once you have gotten the eggs out and dryed, spray ancookie sheet with
+          shaving cream and make sure to completely cover it.</p>
+      </li>
+      <li><h2>Step 5:</h2>
+        <img src="images/step5.png" alt="step 5">
+        <p>Add food coloring to the shaving cream (use more than one color for better
+          results).
+</p>
+      </li>
+      <li><h2>Step 6:</h2>
+        <img src="images/step16.png" alt="step 6">
+        <p>You can use a knife or toothpick to swirl the dye around creating a pattern
+          in the shaving cream.</p>
+      </li>
+      <li><h2>Step 7:</h2>
+        <img src="images/step7.png" alt="step 7">
+        <p>You can then gently place the eggs into the shaving cream. Make sure to
+        place them all over so you can get the different colors.</p>
+      </li>
+      <li><h2>Step 8:</h2>
+        <img src="images/step8.png" alt="step 8">
+        <p>Using a spoon, cover the eggs with shaving cream that is already around them and
+          let them sit for 20 minutes.
+</p>
+      </li>
+
+    </ol>
+<button id="previous" class="hide">Previous</button>
+<button id="next" class="hide">Next</button>
+<button id="finish" >Finish</button>
   </body>
 </html>
