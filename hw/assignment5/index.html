@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Philadelphia Hot Spots</title>
+    <link rel="stylesheet" href="blueimp-gallery/css/blueimp-gallery.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+  </head>
+  <body>
+    <h1 class="center">Philly Phavorites</h1>
+    <p class="center border">Food, Music and sight seeing is a basic way to look at Philly.
+    The intense battle of who has the best cheesteak is a true debate. Along with
+    that, Philly is known for its Reading Terminal Market filled with Philly classics.
+    If food really isnt your thing, take a historic trip to the Liberty bell or go hangout with the  Rocky statue at the Art Mueseum.
+    Come from a losing city? Take a tour through Lincoln Financial Field and experience
+    the feeling of superbowl champs.</p>
+    <div id="blueimp-gallery" class="blueimp-gallery">
+    <div class="slides"></div>
+    <h3 class="title"></h3>
+    <a class="prev">‹</a>
+    <a class="next">›</a>
+    <a class="close">×</a>
+    <a class="play-pause"></a>
+    <ol class="indicator"></ol>
+</div>
+
+<div class="row">
+  <div class="column"><div id="links" class="imgLiquidFill">
+      <a href="images/linc.jpg" title="Eagles Stadium">
+          <img src="images/linc.jpg" alt="Linc">
+      </a>
+      <a href="images/bell.jpg" title="Liberty Bell">
+          <img src="images/bell.jpg" alt="Bell">
+      </a>
+      <a href="images/mia.jpg" title="MIA">
+          <img src="images/mia.jpg" alt="MIA">
+      </a>
+      <a href="images/mkt.jpg" title="Reading Terminal Market">
+          <img src="images/mkt.jpg" alt="mkt">
+      </a>
+      <a href="images/rocky.JPG" title="Rocky">
+          <img src="images/rocky.JPG" alt="Rocky">
+      </a>
+      <a href="images/vs.png" title="Cheesteaks">
+          <img src="images/vs.png" alt="Cheesteaks">
+      </a>
+  </div></div>
+  <div class="column"><div class="list-type5">
+  <ol>
+  <li><a href="http://www.lincolnfinancialfield.com">If you are into football or not, The Linc is a great spot to relax and relive history. Being Superbowl champs has led them to get a bunch of new features that
+    guests like to see.The area also offers <a href="http://www.xfinitylive.com">The Xfinity center</a> to get food and drinks pre or post game.</a></li>
+  <li><a href="https://www.nps.gov/inde/learn/historyculture/stories-libertybell.htm">History lover? Go see the Liberty Bell in center city located on Market street.
+  You can also see the surrounding museums and resturaunts located near the bell.</a></li>
+  <li><a href="http://madeinamericafest.com">Get a great last weekend of summer in the books and spend it at the Made in America Music festival.
+  Located right on the Ben Franklin Parkway, overlooking the art musuem. They always have a line up that contains all the genres that would please
+  whoever you would be going with.</a></li>
+  <li><a href="https://readingterminalmarket.org">Welcome to the Reading Terminal Market. One of America’s largest and oldest public markets, housed since 1893 in a National Historic Landmark building, the Market offers an incredible selection of locally grown & exotic produce, locally sourced meats and poultry,
+    plus the finest seafood, cheeses, baked goods, and confections. </a></li>
+  <li><a href="https://www.visitphilly.com/things-to-do/attractions/the-rocky-statue-and-the-rocky-steps/#sm.000ud05qr1czldxfx271raiv5praf">The infamous Rocky Balboa statue is located in the heart of the Ben Franklin Parkway.
+    He stands below the art museum which makes it a perfect reason to stop and get a picture.</a></li>
+    <li><a href="http://www.shellyinreallife.com/2013/01/philly-cheesesteak-in-philly-pats-vs-genos.html">Cheesteaks. Philly's favorite all day meal. Anywhere you go within 20 miles of the city offers their version of the cheesteak.
+    Whether its different bread, cheese, or toppings, there is no doubt that a cheesteak is what the city of known for. For decades, two resturaunts
+  have been competing over which has the best sandwhich. I guess you are going to have to travel to both and make the decsion.</a></li>
+  </ol>
+  </div</div>
+</div>
+<script src="blueimp-gallery/js/blueimp-gallery.min.js"></script>
+<script src="imgLiquid-master/js/imgLiquid.js">
+</script>
+
+<script>
+document.getElementById('links').onclick = function (event) {
+    event = event || window.event;
+    var target = event.target || event.srcElement,
+        link = target.src ? target.parentNode : target,
+        options = {index: link, event: event},
+        links = this.getElementsByTagName('a');
+    blueimp.Gallery(links, options);
+};
+$(document).ready(function() {
+	$(".imgLiquidFill").imgLiquid();
+});
+
+</script>
+  </body>
+</html>
